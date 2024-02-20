@@ -1,11 +1,11 @@
-const Carouselvideo = () => {
-  const videoUrl = './src/media/video/productvideo.mp4';
+import productVideo from '../media/video/productvideo.mp4'; 
 
+const CarouselVideo = () => {
   return (
     <div>
-     <video autoPlay muted loop playsInline src={videoUrl} alt="productvideo" />
+      <video autoPlay muted loop playsInline src={productVideo} alt="productvideo" />
     </div>
   );
 };
 
-export default Carouselvideo;
+export default CarouselVideo;

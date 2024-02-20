@@ -1,4 +1,3 @@
-
 import product1Image from '../media/images/product1.jpg';
 
 const CarouselProduct1 = () => {
