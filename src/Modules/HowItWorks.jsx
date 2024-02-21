@@ -27,6 +27,17 @@ const HowItWorks = () => {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum tempore adipisci aspernatur unde vero in mollitia. Repudiandae, non ipsum dolore eos rerum ad eius, tenetur voluptatem pariatur ab voluptates soluta.</p>
         </div>
     </div>
+    <div className="buy-product">
+        <div className="prod-bg">
+            <div className="prod-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iusto voluptatem molestias obcaecati aliquam ducimus, veniam corrupti at ad magnam, in possimus magni eveniet deserunt quos quasi natus quibusdam quisquam!</p>
+            </div>
+            <div className="buy-button">
+                <button className='buy-now-big'>Įsigyti</button>
+            </div>
+        </div>
+
+    </div>
     </>
   )
 }

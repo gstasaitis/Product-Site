@@ -21,13 +21,13 @@
 
         .description-img1, .description-img2, .description-img3 { 
             max-width: 30%;
-            overflow: hidden;
             display: flex;
             flex-direction: column;
 
             img {
-                padding-bottom: 20px;
-                height: 550px;
+                margin-bottom: 20px;
+                min-height: 550px;
+                border-radius: 20px;
                 object-fit: cover;
                 object-position: center;
             }
