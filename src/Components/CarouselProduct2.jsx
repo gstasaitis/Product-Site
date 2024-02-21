@@ -1,4 +1,4 @@
-import product2Image from '../media/images/product2.jpg'; 
+import product2Image from '../media/images/pink/23.jpg'; 
 
 const CarouselProduct2 = () => {
   return (

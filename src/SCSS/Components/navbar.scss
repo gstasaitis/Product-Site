@@ -28,7 +28,7 @@
             color: $purple-point;
             position: relative;
             text-decoration: none;
-            transition: color 0.3s;
+            transition: .8s;
 
         &:before {
             content: '';
@@ -39,6 +39,7 @@
             height: 0;
             background-color: $pink;
             transition: height 0.3s;
+            margin-bottom: -5px;
         }
 
         &:hover {

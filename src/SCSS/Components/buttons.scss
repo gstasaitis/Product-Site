@@ -1,0 +1,33 @@
+.buy-now {
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: .3s ease-in-out;
+    background: $purple-point;
+    color: $purple-base;
+    letter-spacing: 1.5px;
+
+    &:hover {
+        color: $purple-point;
+        background: $pink;
+    }
+}
+
+.buy-now-big {
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 2em;
+    transition: .3s ease-in-out;
+    background: $purple-point;
+    color: $purple-base;
+    letter-spacing: 1.5px;
+
+    &:hover {
+        color: $purple-point;
+        background: $pink;
+    }
+}

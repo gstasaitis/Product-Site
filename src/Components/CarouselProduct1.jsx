@@ -1,4 +1,4 @@
-import product1Image from '../media/images/product1.jpg';
+import product1Image from '../media/images/base/102.jpg';
 
 const CarouselProduct1 = () => {
   return (
