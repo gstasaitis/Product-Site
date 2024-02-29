@@ -17,7 +17,6 @@
         padding: 0 20px;
 
         img {
-
             border-radius: 10px;
             width: 100%;
             object-fit: cover;
@@ -49,13 +48,69 @@
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 20px;
+    }
+    .prod-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: 300;
+        padding: 20px;
+        color: white;
+    }
+}
 
+
+@media (max-width: 425px) {
+    .heading {
+        width: 150%;
+    }
+    
+    .how-it-works {
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+    
+        .works {
+            width: 100%;
+            text-align: center;
+
+    
+            img {
+                border-radius: 10px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+    .buy-product {
+        width: 150%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: $purple-dark;
+    
+        .prod-bg {
+            width: 90%;
+
+        }
         .prod-text {
-            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 90%;
             font-size: 1.5em;
             font-weight: 300;
             padding: 20px;
+            color: white;
         }
-        
     }
 }

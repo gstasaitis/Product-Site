@@ -1,0 +1,49 @@
+.reviews {
+    background: $purple-dark;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    .review {
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+}
+.arrows {
+    height: 150px;
+    width: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+}
+.react-slideshow-container .nav {
+    position: inherit;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+    .reviews {
+        width: 150%;
+        background: $purple-dark;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    
+        .review {
+            padding: 20px;
+            border-radius: 20px;
+            h3 {
+                font-size: 2em;
+            }
+            .customer-description {
+                font-size: 1.5em;
+            }
+            
+        }
+    }
+}

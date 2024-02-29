@@ -1,0 +1,25 @@
+.terms {
+    background: $purple-dark;
+    color: white;
+    padding: 120px 35px;
+
+    p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    .terms {    
+        p {
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .terms {
+    
+        p {
+            width: 90%;
+        }
+    }
+}

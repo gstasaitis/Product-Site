@@ -1,6 +1,6 @@
-import infopic1 from '../media/images/yellow/12.jpg';
-import infopic2 from '../media/images/yellow/13_1000px.jpg';
-import infopic3 from '../media/images/yellow/14.jpg';
+import infopic1 from '../media/images/yellow/6.jpg';
+import infopic2 from '../media/images/yellow/21_1000px.jpg';
+import infopic3 from '../media/images/model/3.jpg';
 
 const Description = () => {
   return (

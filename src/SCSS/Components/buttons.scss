@@ -1,5 +1,9 @@
+.buy-button {
+    padding: 5px;
+}
+
 .buy-now {
-    padding: 8px 24px;
+    padding: 7px 20px;
     border-radius: 50px;
     border: none;
     font-weight: 600;
@@ -7,7 +11,7 @@
     transition: .3s ease-in-out;
     background: $purple-point;
     color: $purple-base;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 
     &:hover {
         color: $purple-point;
@@ -30,4 +34,29 @@
         color: $purple-point;
         background: $pink;
     }
+}
+
+.buy-now-big-shop {
+    padding: 16px 55px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 2em;
+    transition: .3s ease-in-out;
+    background: $purple-point;
+    color: $purple-base;
+    letter-spacing: 1.5px;
+
+    &:hover {
+        color: $purple-point;
+        background: $pink;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+
 }

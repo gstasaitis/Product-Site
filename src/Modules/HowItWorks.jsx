@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import workpic1 from '../media/video/01.gif';
 import workpic2 from '../media/video/02.gif';
 import workpic3 from '../media/video/03.gif';
@@ -29,14 +30,12 @@ const HowItWorks = () => {
     </div>
     <div className="buy-product">
         <div className="prod-bg">
+        </div>
             <div className="prod-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iusto voluptatem molestias obcaecati aliquam ducimus, veniam corrupti at ad magnam, in possimus magni eveniet deserunt quos quasi natus quibusdam quisquam!</p>
+                
+                <Link to='/buy'><button className='buy-now-big'>Įsigyti</button></Link>
             </div>
-            <div className="buy-button">
-                <button className='buy-now-big'>Įsigyti</button>
-            </div>
-        </div>
-
     </div>
     </>
   )

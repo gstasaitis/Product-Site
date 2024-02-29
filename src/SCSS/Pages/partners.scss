@@ -1,0 +1,19 @@
+.partners {
+    min-height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+
+@media (max-width: 425px) {
+
+    .partners {
+        min-height: 60vh;
+        width: 150%;
+    }
+}
